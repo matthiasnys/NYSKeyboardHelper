@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* NYSKeyboardHelper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSKeyboardHelper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		685683B4C609472ECC48DCA0 /* NYSKeyboardHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NYSKeyboardHelper.podspec; path = ../NYSKeyboardHelper.podspec; sourceTree = "<group>"; };
-		7060EC93A1944904E59CAA9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		685683B4C609472ECC48DCA0 /* NYSKeyboardHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NYSKeyboardHelper.podspec; path = ../NYSKeyboardHelper.podspec; sourceTree = "<group>"; };
+		7060EC93A1944904E59CAA9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7F3FDE644DF15248BD1C7525 /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA499E5FA8FA7F0F31D2C95 /* Pods_NYSKeyboardHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYSKeyboardHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9D1DBDE6ABCE8E99520193 /* Pods-NYSKeyboardHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F72E829BCB9CDA53C792127B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F72E829BCB9CDA53C792127B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FEEC6983059B1EBD180230E8 /* Pods-NYSKeyboardHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Tests/Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PR8KPSRBQK;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PR8KPSRBQK;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = 7F3FDE644DF15248BD1C7525 /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PR8KPSRBQK;
 				INFOPLIST_FILE = NYSKeyboardHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = DE9D1DBDE6ABCE8E99520193 /* Pods-NYSKeyboardHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PR8KPSRBQK;
 				INFOPLIST_FILE = NYSKeyboardHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEEC6983059B1EBD180230E8 /* Pods-NYSKeyboardHelper_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PR8KPSRBQK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B1BF10D6039C68CF45C314F /* Pods-NYSKeyboardHelper_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PR8KPSRBQK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
