@@ -9,7 +9,7 @@
 import UIKit
 
 public class NYSKeyboardHelper: NSLayoutConstraint {
-    @IBInspectable var extraIndent: CGFloat = 0.0
+    @IBInspectable public var extraIndent: CGFloat = 0.0
     private var lastNotification: Notification? = nil
     
     override init() {
