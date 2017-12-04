@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NYSKeyboardHelper_Example' do
+  pod 'NYSKeyboardHelper', :path => '../'
+
+  target 'NYSKeyboardHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
