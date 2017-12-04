@@ -31,7 +31,9 @@ Add some 'extra indent' in the properties of the constraint to have a bit of mar
 ### Code
 
 ```swift
-self.view.addConstraint(NYSKeyboardHelper(item: self.view, attribute: .bottom, relatedBy: .equal, toItem: button, attribute: .bottom, multiplier: 1.0, constant: 0.0))
+let keyboardConstraint = NYSKeyboardHelper(item: self.view, attribute: .bottom, relatedBy: .equal, toItem: scrollView, attribute: .bottom, multiplier: 1.0, constant: 0.0)
+keyboardConstraint.extraIndent = 10.0
+self.view.addConstraint(keyboardConstraint)
 ```
 set the 'extraIndent' property to have more margin between your containerview and the view.
 
