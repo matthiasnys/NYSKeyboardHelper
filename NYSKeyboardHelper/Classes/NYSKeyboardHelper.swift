@@ -17,7 +17,7 @@ public class NYSKeyboardHelper: NSLayoutConstraint {
         setup()
     }
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         setup()
     }
