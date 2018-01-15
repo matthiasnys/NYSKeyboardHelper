@@ -13,11 +13,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### Cocoapods
+
 NYSKeyboardHelper is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'NYSKeyboardHelper'
+```
+
+### Carthage
+
+NYSKeyboardHelper is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your Cartfile:
+
+```ruby
+github "matthiasnys/NYSKeyboardHelper"
 ```
 
 ## Use
