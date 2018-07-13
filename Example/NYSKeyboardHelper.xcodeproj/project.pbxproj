@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		838BAB596999D83CACD20860 /* Pods_NYSKeyboardHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153F0FD2914D9AE70D147552 /* Pods_NYSKeyboardHelper_Tests.framework */; };
+		EA273E1020F92B1F007238E7 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA273E0F20F92B1F007238E7 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7F3FDE644DF15248BD1C7525 /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA499E5FA8FA7F0F31D2C95 /* Pods_NYSKeyboardHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYSKeyboardHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9D1DBDE6ABCE8E99520193 /* Pods-NYSKeyboardHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA273E0F20F92B1F007238E7 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		F72E829BCB9CDA53C792127B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FEEC6983059B1EBD180230E8 /* Pods-NYSKeyboardHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Tests/Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				EA273E0F20F92B1F007238E7 /* ModalViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				EA273E1020F92B1F007238E7 /* ModalViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
