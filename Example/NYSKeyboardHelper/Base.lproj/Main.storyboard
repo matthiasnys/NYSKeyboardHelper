@@ -38,7 +38,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IUa-he-Wji" secondAttribute="bottom" constant="20" id="2qg-aw-PB3" customClass="NYSKeyboardHelper" customModule="NYSKeyboardHelper">
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IUa-he-Wji" secondAttribute="bottom" priority="999" constant="20" id="2qg-aw-PB3" customClass="NYSKeyboardHelper" customModule="NYSKeyboardHelper">
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="extraIndent">
                                         <real key="value" value="22"/>
@@ -90,7 +90,7 @@
                             <constraint firstItem="klC-19-1Qa" firstAttribute="trailing" secondItem="Yuc-tR-PAq" secondAttribute="trailingMargin" id="4uJ-5P-K3M"/>
                             <constraint firstItem="lXF-Z3-wdN" firstAttribute="trailing" secondItem="Yuc-tR-PAq" secondAttribute="trailingMargin" id="ARF-KF-6mZ"/>
                             <constraint firstItem="lXF-Z3-wdN" firstAttribute="leading" secondItem="Yuc-tR-PAq" secondAttribute="leadingMargin" id="Upe-ge-MhZ"/>
-                            <constraint firstItem="lJk-ms-yia" firstAttribute="top" secondItem="lXF-Z3-wdN" secondAttribute="bottom" constant="20" id="bdW-iV-8jV" customClass="NYSKeyboardHelper" customModule="NYSKeyboardHelper">
+                            <constraint firstItem="lJk-ms-yia" firstAttribute="top" secondItem="lXF-Z3-wdN" secondAttribute="bottom" priority="999" constant="20" id="bdW-iV-8jV" customClass="NYSKeyboardHelper" customModule="NYSKeyboardHelper">
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="extraIndent">
                                         <real key="value" value="20"/>

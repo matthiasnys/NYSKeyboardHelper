@@ -45,12 +45,12 @@ public class NYSKeyboardHelper: NSLayoutConstraint {
     @objc private func keyboardDidChangeVisible(notification: Notification) {
         
         guard let firstItem = self.firstItem as? UIView else {
-            print("NYSKEYBOARDHELPER: Fist item needs to be a UIView")
+            print("NYSKEYBOARDHELPER: First item needs to be a UIView")
             return
         }
         
         guard let superview = firstItem.superview else {
-            print("NYSKEYBOARDHELPER: Fist item needs a superview of the type UIView")
+            print("NYSKEYBOARDHELPER: First item needs a superview of the type UIView")
             return
         }
         
