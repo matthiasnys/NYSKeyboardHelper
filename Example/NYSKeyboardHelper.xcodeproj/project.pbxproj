@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		838BAB596999D83CACD20860 /* Pods_NYSKeyboardHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153F0FD2914D9AE70D147552 /* Pods_NYSKeyboardHelper_Tests.framework */; };
+		EA273E1020F92B1F007238E7 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA273E0F20F92B1F007238E7 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7F3FDE644DF15248BD1C7525 /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA499E5FA8FA7F0F31D2C95 /* Pods_NYSKeyboardHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYSKeyboardHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9D1DBDE6ABCE8E99520193 /* Pods-NYSKeyboardHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA273E0F20F92B1F007238E7 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		F72E829BCB9CDA53C792127B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FEEC6983059B1EBD180230E8 /* Pods-NYSKeyboardHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Tests/Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				EA273E0F20F92B1F007238E7 /* ModalViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -171,7 +174,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				8A2CA43DCB891E2ED5E25DE7 /* [CP] Embed Pods Frameworks */,
-				F161E9BBCBFC669378193142 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,8 +192,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				08B316FD74D0EF1D8868DF1B /* [CP] Embed Pods Frameworks */,
-				D2C063F20425596535B13FA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,12 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = PR8KPSRBQK;
+						DevelopmentTeam = E4RF6VAT5H;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = PR8KPSRBQK;
+						DevelopmentTeam = E4RF6VAT5H;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -266,21 +266,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08B316FD74D0EF1D8868DF1B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYSKeyboardHelper_Tests/Pods-NYSKeyboardHelper_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		685504D62BA8880395EB50FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,36 +320,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2C063F20425596535B13FA9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYSKeyboardHelper_Tests/Pods-NYSKeyboardHelper_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F161E9BBCBFC669378193142 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -373,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				EA273E1020F92B1F007238E7 /* ModalViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,11 +475,12 @@
 			baseConfigurationReference = 7F3FDE644DF15248BD1C7525 /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PR8KPSRBQK;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = E4RF6VAT5H;
 				INFOPLIST_FILE = NYSKeyboardHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyskeyboards.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -535,11 +492,12 @@
 			baseConfigurationReference = DE9D1DBDE6ABCE8E99520193 /* Pods-NYSKeyboardHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PR8KPSRBQK;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = E4RF6VAT5H;
 				INFOPLIST_FILE = NYSKeyboardHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyskeyboards.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -550,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEEC6983059B1EBD180230E8 /* Pods-NYSKeyboardHelper_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = PR8KPSRBQK;
+				DEVELOPMENT_TEAM = E4RF6VAT5H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -572,7 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B1BF10D6039C68CF45C314F /* Pods-NYSKeyboardHelper_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = PR8KPSRBQK;
+				DEVELOPMENT_TEAM = E4RF6VAT5H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

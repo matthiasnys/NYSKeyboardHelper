@@ -1,8 +1,8 @@
 {
   "name": "NYSKeyboardHelper",
   "version": "0.1.0",
-  "summary": "A short description of NYSKeyboardHelper.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A constraint that fixes your keyboard needs",
+  "description": "A keyboard constraint class that can manage your keyboard needs in different situations. It automagically makes your bottom constraint interactive so you don't have to worry about it. Just pin it between your containerview and the input view.",
   "homepage": "https://github.com/matthiasnys/NYSKeyboardHelper",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "NYSKeyboardHelper/Classes/**/*"
 }

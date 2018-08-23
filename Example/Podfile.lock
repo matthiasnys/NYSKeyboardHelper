@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   NYSKeyboardHelper:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  NYSKeyboardHelper: f019c1776c80dccc9b906e1bb065cf40dc97e4cd
+  NYSKeyboardHelper: 949b0cd874ed1a3ff422f31e574fcbe844bb8240
 
 PODFILE CHECKSUM: c86053368526a80e40587e4b6a5bfb7a7ed17336
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
