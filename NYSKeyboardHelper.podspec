@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NYSKeyboardHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A constraint that fixes your keyboard needs'
 
   s.description      = <<-DESC
