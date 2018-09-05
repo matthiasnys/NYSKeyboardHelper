@@ -30,7 +30,7 @@ public class NYSKeyboardHelper: NSLayoutConstraint {
 		keyboardListener?.keyboardUpdate = { [weak self] (animationOptions, animationDuration, keyboardHeight) in
 			guard let `self` = self,
 				let firstView = self.firstItem as? UIView else { return }
-			let options = UIViewAnimationOptions(rawValue: animationOptions.rawValue | UIViewAnimationOptions.layoutSubviews.rawValue)
+			let options = UIView.AnimationOptions(rawValue: animationOptions.rawValue | UIView.AnimationOptions.layoutSubviews.rawValue)
 
 			UIView.animate(withDuration: animationDuration, delay: 0.0, options: options, animations: {
 				self.constant = keyboardHeight
