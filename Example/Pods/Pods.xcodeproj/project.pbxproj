@@ -42,31 +42,31 @@
 		0BC34859CBD37CBCEA746D9E82D9747C /* Pods-NYSKeyboardHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NYSKeyboardHelper_Example.modulemap"; sourceTree = "<group>"; };
 		123E674ADA98A2510B6140E8EABD1817 /* Pods-NYSKeyboardHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYSKeyboardHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		145C1EE6EE89E60D7EF0E246616C5150 /* Pods-NYSKeyboardHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYSKeyboardHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		18E2A23AB248CB24E86A432A883AE8DC /* Pods_NYSKeyboardHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYSKeyboardHelper_Tests.framework; path = "Pods-NYSKeyboardHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2A23AB248CB24E86A432A883AE8DC /* Pods_NYSKeyboardHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYSKeyboardHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A6BEB807848390119740E783963DAC /* Pods-NYSKeyboardHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NYSKeyboardHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		27F7A071A520D9D2E662213F45BE58C3 /* NYSKeyboardHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYSKeyboardHelper.xcconfig; sourceTree = "<group>"; };
 		36D352BC0BF11698D4788A8F3A812F35 /* Pods-NYSKeyboardHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYSKeyboardHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4211C7335CA11AE2B3467A0EA7B84D92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D386D1133DBBBBA7B7E4CE98834FF30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4E3C290EEC12DAAD287EB8433E563FA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4D386D1133DBBBBA7B7E4CE98834FF30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4E3C290EEC12DAAD287EB8433E563FA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		752E231964DA26A4C27F150F4006B8E8 /* Pods-NYSKeyboardHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYSKeyboardHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7824B442F3F884AD38C7A86F5B6F4719 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A105A425C3A6AB5958CB4BE2255DD97 /* Pods_NYSKeyboardHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYSKeyboardHelper_Example.framework; path = "Pods-NYSKeyboardHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A105A425C3A6AB5958CB4BE2255DD97 /* Pods_NYSKeyboardHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYSKeyboardHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CDC6260DC0D41620EF27297DD546E2 /* Pods-NYSKeyboardHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYSKeyboardHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83B96AE9EF4C94DE2855405CFE200D96 /* NYSKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NYSKeyboardListener.swift; path = NYSKeyboardHelper/Classes/NYSKeyboardListener.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99D0FA7CBCFD0E6F9FEAC3CD95291EA3 /* NYSKeyboardHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYSKeyboardHelper-prefix.pch"; sourceTree = "<group>"; };
 		9D286B60A8C8A5D0940FF8C228D46AF8 /* Pods-NYSKeyboardHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYSKeyboardHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		B049EC8D676186C8CE68584B5A5ED96E /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYSKeyboardHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BEDE03BC7F66D50C44FB14AF4F1EF427 /* NYSKeyboardHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NYSKeyboardHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEDE03BC7F66D50C44FB14AF4F1EF427 /* NYSKeyboardHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NYSKeyboardHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFA0EFBAC5C67A6BF0DD9CC9CD40D84E /* Pods-NYSKeyboardHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYSKeyboardHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFBAC338388AD28D6D894BBFD8452A99 /* Pods-NYSKeyboardHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYSKeyboardHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C18E0121F51A9252216C35E78DEF438F /* NYSKeyboardHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NYSKeyboardHelper.swift; path = NYSKeyboardHelper/Classes/NYSKeyboardHelper.swift; sourceTree = "<group>"; };
 		C7759AC0AB868E14574AB5ACE0EEA79A /* NYSKeyboardHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYSKeyboardHelper-dummy.m"; sourceTree = "<group>"; };
 		C800621BA8F29256DF5740E010B7655A /* Pods-NYSKeyboardHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYSKeyboardHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB1F8567DFF1E64E68211F78F4FA4624 /* Pods-NYSKeyboardHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYSKeyboardHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		DC375552F48EC67528E1FE30D8359B1C /* NYSKeyboardHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYSKeyboardHelper.framework; path = NYSKeyboardHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC375552F48EC67528E1FE30D8359B1C /* NYSKeyboardHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NYSKeyboardHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E022C0019DF68675BCCB8547A7F3B461 /* Pods-NYSKeyboardHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYSKeyboardHelper_Tests-resources.sh"; sourceTree = "<group>"; };
 		E566838E3D1B27F911B0D60F5E7320AB /* NYSKeyboardHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NYSKeyboardHelper.modulemap; sourceTree = "<group>"; };
 		E7773C2EFF8FEC2CD58BC1EF4A53B5D7 /* NYSKeyboardHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYSKeyboardHelper-umbrella.h"; sourceTree = "<group>"; };
@@ -324,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2C3D99783064695807BE8BA5FE76CDF7 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -601,8 +606,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -698,9 +702,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -733,7 +736,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

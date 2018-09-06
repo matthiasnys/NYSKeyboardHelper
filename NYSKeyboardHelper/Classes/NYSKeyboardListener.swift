@@ -10,7 +10,7 @@ import UIKit
 public class NYSKeyboardListener {
 
 	public var extraIndent: CGFloat = 0.0
-	public var keyboardUpdate: ((UIViewAnimationOptions, TimeInterval, CGFloat) -> Void)?
+	public var keyboardUpdate: ((UIView.AnimationOptions, TimeInterval, CGFloat) -> Void)?
 	internal var lastNotification: Notification? = nil
 	private weak var layoutConstraint: NSLayoutConstraint?
 
@@ -20,15 +20,15 @@ public class NYSKeyboardListener {
 	}
 
 	private func setup() {
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: .UIKeyboardWillHide, object: nil)
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: .UIKeyboardWillShow, object: nil)
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: .UIKeyboardDidShow, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardDidShowNotification, object: nil)
 	}
 
 	deinit {
-		NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillHide, object: nil)
-		NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
-		NotificationCenter.default.removeObserver(self, name: .UIKeyboardDidShow, object: nil)
+		NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+		NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+		NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardDidShowNotification, object: nil)
 	}
 
 	@objc internal func keyboardDidChangeVisible(notification: Notification) {
@@ -43,18 +43,18 @@ public class NYSKeyboardListener {
 		}
 
 		var animationDuration: TimeInterval = 0.0
-		var animationOptions: UIViewAnimationOptions = UIViewAnimationOptions(rawValue: 0)
+		var animationOptions: UIView.AnimationOptions = UIView.AnimationOptions(rawValue: 0)
 		var endFrame = CGRect.zero
 
-		if let animationCurve = notification.userInfo?[UIKeyboardAnimationCurveUserInfoKey] as? UIViewAnimationCurve {
-			animationOptions = UIViewAnimationOptions(rawValue: UInt(animationCurve.rawValue << 16))
+		if let animationCurve = notification.userInfo?[UIResponder.keyboardAnimationCurveUserInfoKey] as? UIView.AnimationCurve {
+			animationOptions = UIView.AnimationOptions(rawValue: UInt(animationCurve.rawValue << 16))
 		}
 
-		if let animationDurationFromUserInfo = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval {
+		if let animationDurationFromUserInfo = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval {
 			animationDuration = animationDurationFromUserInfo
 		}
 
-		if let endFrameFromUserInfo = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? CGRect {
+		if let endFrameFromUserInfo = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
 			endFrame = endFrameFromUserInfo
 		}
 
