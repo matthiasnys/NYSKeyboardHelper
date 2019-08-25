@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* NYSKeyboardHelper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSKeyboardHelper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		685683B4C609472ECC48DCA0 /* NYSKeyboardHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NYSKeyboardHelper.podspec; path = ../NYSKeyboardHelper.podspec; sourceTree = "<group>"; };
+		685683B4C609472ECC48DCA0 /* NYSKeyboardHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NYSKeyboardHelper.podspec; path = ../NYSKeyboardHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7060EC93A1944904E59CAA9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7F3FDE644DF15248BD1C7525 /* Pods-NYSKeyboardHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSKeyboardHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSKeyboardHelper_Example/Pods-NYSKeyboardHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA499E5FA8FA7F0F31D2C95 /* Pods_NYSKeyboardHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYSKeyboardHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -424,6 +424,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -471,6 +472,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

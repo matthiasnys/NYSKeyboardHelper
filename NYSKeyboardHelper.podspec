@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NYSKeyboardHelper'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'A constraint that fixes your keyboard needs'
-  s.swift_version    = "4.2"
+  s.swift_version    = "5.0"
   s.description      = <<-DESC
 A keyboard constraint class that can manage your keyboard needs in different situations. It automagically makes your bottom constraint interactive so you don't have to worry about it. Just pin it between your containerview and the input view.
                        DESC
