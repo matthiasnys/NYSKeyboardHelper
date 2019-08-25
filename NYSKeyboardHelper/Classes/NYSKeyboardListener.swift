@@ -20,9 +20,9 @@ public class NYSKeyboardListener {
 	}
 
 	private func setup() {
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardDidShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidChangeVisible(notification:)), name: UIResponder.keyboardDidShowNotification, object: nil)
 	}
 
 	deinit {

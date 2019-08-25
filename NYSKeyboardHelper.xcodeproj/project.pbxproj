@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		183C246C200D2D580040C8A2 /* NYSKeyboardHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C246A200D2D580040C8A2 /* NYSKeyboardHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183C247D200D2DEB0040C8A2 /* NYSKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C247A200D2DEB0040C8A2 /* NYSKeyboardHelper.swift */; };
+		39B8975523129ADB00EFD9DB /* NYSKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8975423129ADB00EFD9DB /* NYSKeyboardListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		183C246A200D2D580040C8A2 /* NYSKeyboardHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSKeyboardHelper.h; sourceTree = "<group>"; };
 		183C246B200D2D580040C8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183C247A200D2DEB0040C8A2 /* NYSKeyboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYSKeyboardHelper.swift; sourceTree = "<group>"; };
+		39B8975423129ADB00EFD9DB /* NYSKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYSKeyboardListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		183C2478200D2DEB0040C8A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				39B8975423129ADB00EFD9DB /* NYSKeyboardListener.swift */,
 				183C247A200D2DEB0040C8A2 /* NYSKeyboardHelper.swift */,
 			);
 			path = Classes;
@@ -109,7 +112,7 @@
 		183C245E200D2D580040C8A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "The Amazing Dwayne Coussement";
 				TargetAttributes = {
 					183C2466200D2D580040C8A2 = {
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183C247D200D2DEB0040C8A2 /* NYSKeyboardHelper.swift in Sources */,
+				39B8975523129ADB00EFD9DB /* NYSKeyboardListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +175,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -178,6 +183,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -212,6 +218,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -231,6 +238,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -238,6 +246,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -264,6 +273,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -286,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.b-nys.NYSKeyboardHelper.NYSKeyboardHelper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.b-nys.NYSKeyboardHelper.NYSKeyboardHelper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
